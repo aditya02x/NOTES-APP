@@ -4,7 +4,8 @@ import cors from "cors";
 import dotenv from "dotenv";
 
 import authRoutes from "./src/routes/auth.route.js";
-// import noteRoutes from "./src/routes/note.route.js";
+import noteRoutes from './src/routes/note.route.js'
+
 
 dotenv.config();
 
@@ -16,7 +17,8 @@ app.use(express.json());
 
 // routes
 app.use("/api/auth", authRoutes);
-// app.use("/api/notes", noteRoutes);
+app.use("/api/notes",noteRoutes)
+
 
 // port
 const PORT = process.env.PORT || 5000;

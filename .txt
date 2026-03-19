@@ -1,0 +1,9 @@
+{
+    "message": "User created successfully",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YmJiNTAzOWM1MWFmNTllZmM2ZTE3OSIsImlhdCI6MTc3MzkwOTI1MSwiZXhwIjoxNzc0NTE0MDUxfQ.zvr1CDTquFF-_CHNY0SOJAlvoZ_cayhE0kA9_F_B3m4",
+    "user": {
+        "_id": "69bbb5039c51af59efc6e179",
+        "username": "aditya",
+        "email": "aditya@gmail.com"
+    }
+}

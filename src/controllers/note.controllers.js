@@ -60,4 +60,4 @@ const deleteNote = async (req, res) => {
         return res.status(500).json({ message: "Internal Server Error" });
     }
 };
-export default {createNote,getNotes,deleteNote}
+export { createNote, getNotes, deleteNote };
